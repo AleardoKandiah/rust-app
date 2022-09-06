@@ -1,5 +1,3 @@
-use rocket::{routes, Build};
-
 #[macro_use] extern create rocket;
 
 #[get("/world")]
