@@ -124,9 +124,9 @@ function setConnectedStatus(status) {
   statusDiv.className = (status) ? "connected" : "reconnecting";
 }
 
-// 
+// Initialisation
 function init() {
-  // Initialize some rooms.
+  // Initialise some rooms.
   addRoom("lobby");
   addRoom("rocket");
   changeRoom("lobby");
