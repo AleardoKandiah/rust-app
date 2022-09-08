@@ -50,7 +50,7 @@ fn post(form: Form<Message>, queue: &State<Sender<Message>>) {
 }
 
 // return value is a tuple containing a sender and a receiver end, 
-// therefore we implement .0 to only save the first sender element in the tuple in state
+// therefore we implement .0 to only save the first sender element in the tuple in state.
 #[launch]
 fn rocket() -> _ {
     rocket::build()
