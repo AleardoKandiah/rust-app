@@ -29,7 +29,7 @@ function hashColor(str) {
 }
 
 // Add a new room `name` and change to it. Returns `true` if the room didn't
-// already exist and false otherwise.
+// already exist and false otherwise
 function addRoom(name) {
   if (STATE[name]) {
     changeRoom(name);
