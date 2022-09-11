@@ -17,7 +17,7 @@ var STATE = {
   connected: false,
 }
 
-// Generate a color from a "hash" of a string.
+// Generate a color from a "hash" of a string
 function hashColor(str) {
   let hash = 0;
   for (var i = 0; i < str.length; i++) {
